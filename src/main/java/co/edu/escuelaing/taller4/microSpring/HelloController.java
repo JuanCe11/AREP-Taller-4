@@ -1,4 +1,4 @@
-package co.edu.escuelaing.taller4.microString;
+package co.edu.escuelaing.taller4.microSpring;
 
 public class HelloController {
 

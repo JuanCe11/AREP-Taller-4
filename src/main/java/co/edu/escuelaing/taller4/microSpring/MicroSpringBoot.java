@@ -1,4 +1,4 @@
-package co.edu.escuelaing.taller4.microString;
+package co.edu.escuelaing.taller4.microSpring;
 
 import co.edu.escuelaing.taller4.httpserver.HttpServer;
 
@@ -6,8 +6,8 @@ public class MicroSpringBoot {
 
 	
 	public static void main(String[] args) {
-		/*args = new String[1];
-		args[0] ="co.edu.escuelaing.taller4.microString.HelloController";*/ 
+//		args = new String[1];
+//		args[0] ="co.edu.escuelaing.taller4.microString.HelloController"; 
 		try {
 			MicroSpring iocServer = new MicroSpring();
 			iocServer.start(args);

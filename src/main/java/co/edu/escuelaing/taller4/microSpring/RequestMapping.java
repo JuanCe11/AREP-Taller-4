@@ -1,4 +1,4 @@
-package co.edu.escuelaing.taller4.microString;
+package co.edu.escuelaing.taller4.microSpring;
 
 import java.lang.annotation.Retention;
 import java.lang.annotation.RetentionPolicy;
