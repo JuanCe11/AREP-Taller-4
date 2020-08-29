@@ -1,10 +1,6 @@
 # T�tulo del Proyecto
 
-Talller 1 - AREP 
-
-Introduction To Computer System Design
-
- [![Deployed to Heroku](https://www.herokucdn.com/deploy/button.png)](https://arep-taller-4.herokuapp.com/)
+Talller 4 - AREP 
  
 
 ## Comenzando 
