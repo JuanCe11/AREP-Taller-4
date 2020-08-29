@@ -1,23 +1,18 @@
-# Título del Proyecto
+# Tï¿½tulo del Proyecto
 
 Talller 1 - AREP 
 
 Introduction To Computer System Design
 
- [![Deployed to Heroku](https://www.herokucdn.com/deploy/button.png)](https://arep-taller-2.herokuapp.com/)
- 
- [![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://app.circleci.com/pipelines/github/JuanCe11/AREP-Taller-Heroku)
-
+ [![Deployed to Heroku](https://www.herokucdn.com/deploy/button.png)](https://arep-taller-4.herokuapp.com/)
  
 
 ## Comenzando 
 
-Revise el archivo [Descripción](https://github.com/JuanCe11/AREP-Taller-Heroku/blob/master/Taller_2_AREP.pdf) para tener informacion básica del problema y la solución propuesta.
-
 Para tener una copia del repositorio, desde consola ejecute el siguiente comando.
 
 ```
-git clone https://github.com/JuanCe11/AREP-Taller-Heroku.git
+git clone https://github.com/JuanCe11/AREP-Taller-4.git
 ```
 
 ### Pre-requisitos 
@@ -27,21 +22,21 @@ git clone https://github.com/JuanCe11/AREP-Taller-Heroku.git
 - Maven - [How install](https://maven.apache.org/install.html)
 
 
-### Instalación 
+### Instalaciï¿½n 
 
-Para la correcta instalación se debe primero clonar el repositorio como se indicó anteriormente, después se ingresa al directorio del proyecto y para ejecutar la clase App (el servicio web) se ejecutan los siguientes comandos en windows.
+Para la correcta instalaciï¿½n se debe primero clonar el repositorio como se indicï¿½ anteriormente, despuï¿½s se ingresa al directorio del proyecto y para ejecutar la clase App (el servicio web) se ejecutan los siguientes comandos en windows.
 
 ```
-cd AREP-Taller-Heroku
+cd AREP-Taller-4
 mvn package
-java -cp target/classes;target/dependency/* edu.escuelaing.arep.web.App
+java -cp target/classes;target/dependency/* co.edu.escuelaing.taller4.microSpring.MicroSpringBoot co.edu.escuelaing.taller4.microSpring.HelloController
 ```
 Para sistemas linux usar: 
 
 ```
-cd AREP-Taller-Heroku
+cd AREP-Taller-Taller4
 mvn package
-java -cp target/classes:target/dependency/* edu.escuelaing.arep.web.App
+java -cp target/classes:target/dependency/* co.edu.escuelaing.taller4.microSpring.MicroSpringBoot co.edu.escuelaing.taller4.microSpring.HelloController
 ```
 Cuando se tenga el servicio corriendo se ingresa a la direccion http://localhost:4567/ para ver el el servicio en el navegador.
 
@@ -61,31 +56,24 @@ Ahora para ejecutar los test se utiliza el comando:
 mvn test
 ```
 
-### Analice las pruebas end-to-end 
-
-Las pruebas propuestas están enfocadas a la clase _Calculator_ pero al probar las funcionalidades de esta clase se están utilizando todas las clases de la solución.
-
-Se está probando que el lector de archivos funcione para obtener los datos, se crea la lista encadenada y se le agregan los nodos con los valores que se obtuvieron de los archivos.
-
-
 ## Construido con 
 
 * [Java 8](https://www.java.com/es/about/whatis_java.jsp)
 * [Maven](https://maven.apache.org/) - Manejador de dependencias
-* [Spark Java](http://sparkjava.com/) - Framework de aplicación web.
+* [Spark Java](http://sparkjava.com/) - Framework de aplicaciï¿½n web.
 
 
 ## Wiki
 
-Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](https://github.com/JuanCe11/AREP-Taller-Heroku/wiki)
+Puedes encontrar mucho mï¿½s de cï¿½mo utilizar este proyecto en nuestra [Wiki](https://github.com/JuanCe11/AREP-Taller-Heroku/wiki)
 
 
 ## Autores 
 
-* **Juan Sebastia Gómez López** - *Trabajo Inicial* - [JuanCe11](https://github.com/JuanCe11)
+* **Juan Sebastia Gï¿½mez Lï¿½pez** - *Trabajo Inicial* - [JuanCe11](https://github.com/JuanCe11)
 
 
 ## Licencia
 
-Este proyecto está bajo la Licencia GNU General Public License - mira el archivo [LICENSE.txt](LICENSE.txt) para detalles
+Este proyecto estï¿½ bajo la Licencia GNU General Public License - mira el archivo [LICENSE.txt](LICENSE.txt) para detalles
 
